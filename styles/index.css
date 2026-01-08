@@ -1,0 +1,14 @@
+:root {
+    --border-color: orange;
+    --background-color: bisque;
+}
+
+div,nav,h1,p,a,span {
+    border: 10px double var(--border-color);
+    background-color: var(--background-color);
+    width: 200px;
+    margin: 2px;
+}
+.x:hover {
+    display: none;
+}
